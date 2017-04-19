@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta  name="viewport" content="width=device-width; initial-scale=1; ">
+    <title>个人主页</title>
+    <script src="js/jquery/2.0.0/jquery.min.js"></script>
+    <link href="css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap/3.3.6/bootstrap.min.js"></script>
+   <!--引入外部样式-->
+    <style>
+        @media screen and (max-width: 639px){
+            }
+        /*宽度小于等于599px时执行代码*/
+        @media screen and (min-width: 640px){
+           }
+        /*宽度大于等于600px时执行代码*/
+        /*布局头部*/
+        body,div{margin: 0;
+            padding: 0;  }
+        body{background-color: #F0F0F0;
+        }
+        .header{width: 100vw;
+            height: 36px;
+           padding: 11px;
+        background-color: #79CDCD}
+        .icon1{width: 17px;
+            height: 14px;
+            background-image: url("images/task7sp1.png");
+            background-position: 0 0; }
+        .wrap1{width: auto;
+            height: 58px;
+            border: 1px solid gainsboro;
+            margin: 14px 18px;
+            background-color: white;
+            font-size: 16px;
+            text-align: center;  }
+        .wrap1box{height: 16px;
+            line-height: 16px;
+            margin: 21px auto;
+           display: inline-block;
+        }
+        .icon2{width: 12px;
+            height: 20px;
+            margin: 19px 7px;
+            background-image: url("images/task7sp1.png");
+            background-position: 0 -19px;
+            float: right;}
+        .wrap2{width: auto;
+            border: 1px solid gainsboro;
+            margin: 0 18px;
+            background-color: white;
+            font-size: 16px;
+            text-align: center;}
+        .wrap2box1{width: auto;
+            height: 45px;
+            border-bottom: 2px solid #FDD793;
+            font-size: 16px;
+            color: #FBB435;
+            display: flex;
+            justify-content:center;
+            align-items: center;}
+        .wrap3{width: auto;
+            padding-left: 20px;
+            display: flex;}
+        .wrap3box1{width: 100%;  }
+        .wrap3box2{width: 34px;
+            display: flex;
+            justify-content:center;
+            align-items: center;  }
+        .icon3{width: 14px;
+            height: 28px;
+            background-image: url("images/task7sp1.png");
+            background-position: 0 -46px;  }
+        button{width: 100%;
+            height: 67px;
+            margin: 30px 0px;
+            background-color: #79CDCD;
+            display: flex;
+            justify-content:center;
+            align-items: center;}
+        .circle-activity{
+            display: inline-block;
+            padding: 6px;
+            background-color:#79CDCD;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .circle-inactivity{
+            display: inline-block;
+            padding: 6px;
+            background-color:#F0F0F0;
+            border-radius: 50%;
+            cursor: pointer;/*设定鼠标的形状为一只伸出食指的手*/;
+        }
+        span{margin: 10px auto;}
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="icon1"></div>
+</div>
+<div class="wrap1"><div class="wrap1box">上次游戏：捉鬼猜词版</div>
+    <div class="icon2"></div>
+</div>
+<div class="wrap2"><div class="wrap2box1">捉鬼游戏</div>
+
+<div class="wrap3">
+    <div class="wrap3box1">
+        <button type="button" > 简化版</button>有1133个用户正在玩此游戏
+        <button type="button" >猜词版</button>有1133个用户正在玩此游戏
+        <button type="button" >白痴版</button>有1133个用户正在玩此游戏
+    </div>
+    <div class="wrap3box2"><a href="task7-2.html"><div class="icon3"></div></a></div>
+</div>
+    <span><a href="#" class="circle-activity"></a>
+    <a href="#" class="circle-inactivity"></a>
+    <a href="#" class="circle-inactivity"></a>
+    <a href="#" class="circle-inactivity"></a></span>
+</div>
+</body>
+</html>
